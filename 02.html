@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Title</title>
+	<style type=text/css>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			background-color: #232f3e;
+			color: #fff;
+		}
+
+		.logo {
+			display: flex;
+			align-items: center;
+		}
+
+		.logo img {
+			margin-right: 10px;
+		}
+
+		nav {
+			background-color: #f0f0f0;
+			padding: 10px;
+		}
+
+		nav ul {
+			display: flex;
+			list-style: none;
+		}
+
+		nav ul li {
+			margin-right: 20px;
+		}
+
+		nav ul li a {
+			color: #232f3e;
+			text-decoration: none;
+		}
+
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 20px;
+		}
+
+		.product-image {
+			flex: 1 0 40%;
+			margin-right: 20px;
+		}
+
+		.product-image img {
+			max-width: 100%;
+		}
+
+		.product-info {
+			flex: 1 0 50%;
+		}
+
+		.product-info h2 {
+			margin-bottom: 10px;
+		}
+
+		.product-info p.price {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.product-info p.description {
+			margin-bottom: 20px
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="https://dummyimage.com/100x100/000/fff" alt="Logo">
+			<h1>Product Title</h1>
+		</div>
+		<div class="search">
+			<input type="text" placeholder="Search">
+			<button>Go</button>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="product-image">
+			<img src="https://dummyimage.com/400x400/000/fff" alt="Product Image">
+		</div>
+		<div class="product-info">
+			<h2>Product Title</h2>
+			<p class="price">$19.99</p>
+			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel feugiat justo. Aenean nec risus vel sem condimentum feugiat ac eu lectus.</p>
+			<form>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+				<button type="submit">Add to Cart</button>
+			</form>
+			<p class="features"><strong>Product Features:</strong><br>Feature 1<br>Feature 2<br>Feature 3<br>Feature 4</p>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Second E-Commerce</p>
+	</footer>
+</body>
+</html>
