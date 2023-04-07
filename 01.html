@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Product Name - First E-Commerce</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #232f3e;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			padding: 10px 20px;
+		}
+
+		.logo img {
+			height: 50px;
+		}
+
+		nav ul {
+			display: flex;
+			list-style: none;
+			margin-left: auto;
+		}
+
+		nav ul li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		nav ul li a:hover {
+			background-color: #fff;
+			color: #232f3e;
+		}
+
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 20px;
+		}
+
+		.product-image {
+			flex-basis: 50%;
+		}
+
+		.product-details {
+			flex-basis: 50%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.product-details h1 {
+			font-size: 2rem;
+			margin-bottom: 10px;
+		}
+
+		.price {
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.description {
+			margin-bottom: 20px;
+		}
+
+		form {
+			display: flex;
+			align-items: center;
+		}
+
+		form label {
+			margin-right: 10px;
+		}
+
+		form input {
+			padding: 10px;
+			margin-right: 10px;
+			border: none;
+			border-radius: 3px;
+		}
+
+		form button {
+			background-color: #232f3e;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+
+		form button:hover {
+			background-color: #fff;
+			color: #232f3e;
+		}
+
+		footer {
+			background-color: #232f3e;
+			color: #
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1>Nice logo</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="product-image">
+			<h2>Product image</h2>
+		</div>
+		<div class="product-details">
+			<h1>Product Name</h1>
+			<p class="price">$99.99</p>
+			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod nisi vel volutpat scelerisque. Nam bibendum, mauris nec blandit tristique, sapien eros faucibus magna, at efficitur magna elit non risus. </p>
+			<form>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10">
+				<button type="submit">Add to Cart</button>
+			</form>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 First E-Commerce</p>
+	</footer>
+
+</body>
+</html>
