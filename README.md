@@ -1,6 +1,7 @@
 # ai-price-monitoring
 Samples and code snippets for the AI price monitoring article
 
+```
 //////////////////////////////
 //////////////////////////////
 CODE1
@@ -99,3 +100,4 @@ getPrice('https://htmlpreview.github.io/?https://github.com/rochesterj/ai-price-
     var text = decoder.decode(response.data);
     console.log(text);
 }).catch((e) => console.log('A problem occurs : ' + e.response.data));
+```
